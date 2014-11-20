@@ -12,6 +12,7 @@ namespace CodeSamples.Basics
 		{
 			int i = 1;
 			Console.WriteLine("i=1");
+			Console.WriteLine("Note that the value of i doesn't change, the value is never assign back");
 			Console.WriteLine("i+1 =" + (i + 1));
 			Console.WriteLine("i-1 =" + (i - 1));
 			Console.WriteLine("i*2 =" + (i * 2));

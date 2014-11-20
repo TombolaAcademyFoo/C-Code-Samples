@@ -41,7 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basics\ArithmeticOverflow.cs" />
     <Compile Include="Basics\DeclaringVariableTypes.cs" />
+    <Compile Include="Basics\BasicMathsOperators.cs" />
+    <Compile Include="Basics\AssignmentOperators.cs" />
+    <Compile Include="Basics\PreefixAndPostfixOperators.cs" />
+    <Compile Include="Basics\Text.cs" />
+    <Compile Include="BranchingAndLooping\ForLoops.cs" />
+    <Compile Include="BranchingAndLooping\Recursion.cs" />
+    <Compile Include="BranchingAndLooping\StackOverflow.cs" />
+    <Compile Include="BranchingAndLooping\WhileAndDoWhile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Basics\WhyNotToUseFloatingPointTypes.cs" />

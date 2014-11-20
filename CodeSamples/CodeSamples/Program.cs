@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodeSamples.Basics;
+using CodeSamples.BranchingAndLooping;
 
 namespace CodeSamples
 {
@@ -10,6 +12,9 @@ namespace CodeSamples
 	{
 		static void Main(string[] args)
 		{
+			Text.Test();
+			Console.WriteLine("Done");
+			Console.ReadKey();
 		}
 	}
 }
