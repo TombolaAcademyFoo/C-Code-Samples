@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeSamples
+namespace CodeSamples.Basics
 {
 	public static class DeclaringVariableTypes
 	{
@@ -29,7 +29,8 @@ namespace CodeSamples
 			//uint dooo = -1; //can't do this, negative
 
 
-			//Maths values have max and min values. Unsigned values have a higher max value
+			//Maths values have max and min values - if you go over/under you will get errors. 
+			//Unsigned values have a higher max value
 			Console.WriteLine("Max long:" + long.MaxValue);
 			Console.WriteLine("Max ulong:" + ulong.MaxValue);
 			Console.WriteLine("Min long:" + long.MinValue);
