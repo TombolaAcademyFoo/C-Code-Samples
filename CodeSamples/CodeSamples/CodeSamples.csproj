@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basics\AnExceptionToWatchOutFor.cs" />
     <Compile Include="Basics\ArithmeticOverflow.cs" />
+    <Compile Include="Basics\DateTimeAndTimeSpan.cs" />
     <Compile Include="Basics\DeclaringVariableTypes.cs" />
     <Compile Include="Basics\BasicMathsOperators.cs" />
     <Compile Include="Basics\AssignmentOperators.cs" />

@@ -116,10 +116,12 @@ namespace CodeSamples.Basics
 			//*********************************************************************
 			//A note about stringbuilder
 			//*********************************************************************
-			//There is a myth that Stringbuilder that is more efficient in terms of
-			//memory and/or speed. This is a myth - it actually depends what you 
-			//are doing. Sometimes the benefit is outweighed by the cruft in code 
-			//that it creates. Rule of thumb:
+			//You might hear that Stringbuilder that is more efficient in terms of
+			//memory and/or speed. This is a semi-myth - it actually depends what  
+			//you are doing. Also, sometimes the benefit is outweighed by the 
+			//additional cruft in code that stringbuilder creates. 
+			//
+			//Rule of thumb:
 			//Use concat (+) if it easily read
 			//You can break down concat into several steps
 			//String builder should be used in a non-trivial loop, where concat can happen in one step

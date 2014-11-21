@@ -12,7 +12,7 @@ namespace CodeSamples
 	{
 		static void Main(string[] args)
 		{
-			Text.Test();
+			DeafaultValues.Test();
 			Console.WriteLine("Done");
 			Console.ReadKey();
 		}
