@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CodeSamples.Basics;
 using CodeSamples.BranchingAndLooping;
+using CodeSamples.Collections;
 
 namespace CodeSamples
 {
@@ -12,7 +13,7 @@ namespace CodeSamples
 	{
 		static void Main(string[] args)
 		{
-			DeafaultValues.Test();
+			GenericListExample.Test();
 			Console.WriteLine("Done");
 			Console.ReadKey();
 		}

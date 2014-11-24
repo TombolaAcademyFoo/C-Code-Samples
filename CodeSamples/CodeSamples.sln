@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSamples", "CodeSamples\CodeSamples.csproj", "{69B1BD73-3D91-4C65-84D2-DAB07CAECA52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FooBank", "FooBank\FooBank.csproj", "{53DB7F09-F468-4673-AE11-48A03D0C0CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{31AEB841-D815-4503-83E8-A74721A56F9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{69B1BD73-3D91-4C65-84D2-DAB07CAECA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69B1BD73-3D91-4C65-84D2-DAB07CAECA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69B1BD73-3D91-4C65-84D2-DAB07CAECA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DB7F09-F468-4673-AE11-48A03D0C0CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DB7F09-F468-4673-AE11-48A03D0C0CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DB7F09-F468-4673-AE11-48A03D0C0CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DB7F09-F468-4673-AE11-48A03D0C0CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AEB841-D815-4503-83E8-A74721A56F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AEB841-D815-4503-83E8-A74721A56F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AEB841-D815-4503-83E8-A74721A56F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AEB841-D815-4503-83E8-A74721A56F9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

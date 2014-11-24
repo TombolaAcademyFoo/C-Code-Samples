@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{69B1BD73-3D91-4C65-84D2-DAB07CAECA52}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{53DB7F09-F468-4673-AE11-48A03D0C0CC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodeSamples</RootNamespace>
-    <AssemblyName>CodeSamples</AssemblyName>
+    <RootNamespace>FooBank</RootNamespace>
+    <AssemblyName>FooBank</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,41 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basics\AnExceptionToWatchOutFor.cs" />
-    <Compile Include="Basics\ArithmeticOverflow.cs" />
-    <Compile Include="Basics\CastAndTypeConversion.cs" />
-    <Compile Include="Basics\DateTimeAndTimeSpan.cs" />
-    <Compile Include="Basics\DeclaringVariableTypes.cs" />
-    <Compile Include="Basics\BasicMathsOperators.cs" />
-    <Compile Include="Basics\AssignmentOperators.cs" />
-    <Compile Include="Basics\DefaultValues.cs" />
-    <Compile Include="Basics\PreefixAndPostfixOperators.cs" />
-    <Compile Include="Basics\Text.cs" />
-    <Compile Include="BranchingAndLooping\ForLoops.cs" />
-    <Compile Include="BranchingAndLooping\Recursion.cs" />
-    <Compile Include="BranchingAndLooping\StackOverflow.cs" />
-    <Compile Include="BranchingAndLooping\WhileAndDoWhile.cs" />
-    <Compile Include="Collections\ArrayListExample.cs" />
-    <Compile Include="Collections\Arrays.cs" />
-    <Compile Include="Collections\CollectionUtilties.cs" />
-    <Compile Include="Collections\GenericListExample.cs" />
-    <Compile Include="Conditionals\ToSortOut.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="BankAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Basics\WhyNotToUseFloatingPointTypes.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FooBank\FooBank.csproj">
-      <Project>{53db7f09-f468-4673-ae11-48a03d0c0cc0}</Project>
-      <Name>FooBank</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Logging\Logging.csproj">
-      <Project>{31aeb841-d815-4503-83e8-a74721a56f9e}</Project>
-      <Name>Logging</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
