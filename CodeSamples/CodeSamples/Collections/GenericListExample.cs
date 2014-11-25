@@ -11,13 +11,12 @@ namespace CodeSamples.Collections
 	{
 		public static void Test()
 		{
-			////A list of strings
-			//List<string> bar = new List<string>();
-
-			////A list of Bank Accounts
-			//List<BankAccount> baz = new List<BankAccount>();
-
 			BasicListOperations();
+			//A list of strings
+			List<string> bar = new List<string>();
+
+			//A list of Bank Accounts
+			List<BankAccount> baz = new List<BankAccount>();
 		}
 
 		private static void BasicListOperations()
