@@ -58,7 +58,10 @@
     <Compile Include="Collections\ArrayListExample.cs" />
     <Compile Include="Collections\Arrays.cs" />
     <Compile Include="Collections\CollectionUtilties.cs" />
+    <Compile Include="Collections\DictionaryExamples.cs" />
     <Compile Include="Collections\GenericListExample.cs" />
+    <Compile Include="Collections\QueueExample.cs" />
+    <Compile Include="Collections\StackExample.cs" />
     <Compile Include="Conditionals\ToSortOut.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

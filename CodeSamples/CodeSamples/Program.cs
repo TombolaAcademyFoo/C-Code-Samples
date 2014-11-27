@@ -13,7 +13,7 @@ namespace CodeSamples
 	{
 		static void Main(string[] args)
 		{
-			GenericListExample.Test();
+			DictionaryExamples.Test();
 			Console.WriteLine("Done");
 			Console.ReadKey();
 		}
