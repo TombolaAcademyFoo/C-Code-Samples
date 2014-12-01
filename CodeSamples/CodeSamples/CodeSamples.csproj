@@ -63,6 +63,7 @@
     <Compile Include="Collections\QueueExample.cs" />
     <Compile Include="Collections\StackExample.cs" />
     <Compile Include="Conditionals\ToSortOut.cs" />
+    <Compile Include="FilesAndStreams\FileIO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Basics\WhyNotToUseFloatingPointTypes.cs" />

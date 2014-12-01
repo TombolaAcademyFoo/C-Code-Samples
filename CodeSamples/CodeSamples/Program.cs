@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CodeSamples.Basics;
 using CodeSamples.BranchingAndLooping;
 using CodeSamples.Collections;
+using CodeSamples.FilesAndStreams;
 
 namespace CodeSamples
 {
@@ -13,7 +14,7 @@ namespace CodeSamples
 	{
 		static void Main(string[] args)
 		{
-			DictionaryExamples.Test();
+			FileIO.Test();
 			Console.WriteLine("Done");
 			Console.ReadKey();
 		}
