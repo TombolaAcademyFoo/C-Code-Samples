@@ -51,6 +51,7 @@
     <Compile Include="Basics\DefaultValues.cs" />
     <Compile Include="Basics\PreefixAndPostfixOperators.cs" />
     <Compile Include="Basics\Text.cs" />
+    <Compile Include="Basics\VarExample.cs" />
     <Compile Include="BranchingAndLooping\ForLoops.cs" />
     <Compile Include="BranchingAndLooping\Recursion.cs" />
     <Compile Include="BranchingAndLooping\StackOverflow.cs" />

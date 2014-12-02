@@ -7,6 +7,7 @@ using CodeSamples.Basics;
 using CodeSamples.BranchingAndLooping;
 using CodeSamples.Collections;
 using CodeSamples.FilesAndStreams;
+using FooBank;
 
 namespace CodeSamples
 {
@@ -14,7 +15,15 @@ namespace CodeSamples
 	{
 		static void Main(string[] args)
 		{
-			FileIO.Test();
+			BankAccount myTestAccount = new BankAccount("12345", 1000M);
+			//myTestAccount.Balance = 1000000M; //Not allowed private setter.
+			Console.WriteLine(myTestAccount.Balance);
+			myTestAccount.Withdraw(250M);
+			Console.WriteLine(myTestAccount.Balance);
+			Console.WriteLine(myTestAccount.InterestRate);
+			myTestAccount.InterestRate = 3M;
+			Console.WriteLine(myTestAccount.InterestRate);
+
 			Console.WriteLine("Done");
 			Console.ReadKey();
 		}
